@@ -4,6 +4,7 @@
 
 def double_int(cats):
     for i in range(len(cats)):
+        #index num
         if i % 2 == 1:
             cats[i]*= 2
     return cats
