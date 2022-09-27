@@ -16,3 +16,15 @@ def summy_sum(numberinos):
     return cheese
 
 print(summy_sum([1,2,3,4,5]))
+    
+
+
+def fruit_loops(numsw):
+    res = []
+    s = 0
+    for i in numsw:
+        s += i
+        res.append(s)
+    return res
+print(fruit_loops([1,2,3,4,5]))
+print(fruit_loops([1,2,3,4]))
