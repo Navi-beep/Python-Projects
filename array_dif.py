@@ -5,9 +5,10 @@
 
 def array_dif(a,b):
     c = []
+    d = []
     for i in a:
         if i in b:
-            pass
+            d.append(i)
         else:
             c.append(i)
     return c
