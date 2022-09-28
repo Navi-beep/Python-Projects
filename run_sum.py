@@ -28,3 +28,4 @@ def fruit_loops(numsw):
     return res
 print(fruit_loops([1,2,3,4,5]))
 print(fruit_loops([1,2,3,4]))
+
