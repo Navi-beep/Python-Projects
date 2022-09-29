@@ -19,16 +19,16 @@ def maximumWealth(accounts):
         ind_wealth = 0 #each individual's total wealth
         
         for i in range(len(accounts)):
-            #print(i)
-            print (len(accounts))
+            print(i)
+            #print (len(accounts))
             #print(sum(accounts[i]))
             ind_wealth = sum(accounts[i])
-            #print(ind_wealth)
+            print(ind_wealth)
             if ind_wealth > max_wealth:
                 max_wealth = ind_wealth
                 #print('cats')
-        return max_wealth 
+        return i, max_wealth, f'show me the money'
 
 
-print(maximumWealth([[1,2,3],[4,7,8],[4,5,6],[7,4,8]]))
-print('show me the money')
+print(maximumWealth([[1,2,3],[4,7,10],[4,5,6],[7,4,8]]))
+#print('show me the money')
