@@ -20,6 +20,7 @@ def maximumWealth(accounts):
         
         for i in range(len(accounts)):
             #print(i)
+            print (len(accounts))
             #print(sum(accounts[i]))
             ind_wealth = sum(accounts[i])
             #print(ind_wealth)
@@ -29,5 +30,5 @@ def maximumWealth(accounts):
         return max_wealth 
 
 
-print(maximumWealth([[1,2,3],[4,7,8],[4,5,6]]))
+print(maximumWealth([[1,2,3],[4,7,8],[4,5,6],[7,4,8]]))
 print('show me the money')
