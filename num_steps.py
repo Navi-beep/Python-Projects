@@ -4,3 +4,31 @@
 
 
 
+def even(e):
+    if e % 2 == 0:
+        return True
+
+    return False
+
+
+print(even(2)) 
+
+#not working yet
+def num_steps(s):
+    steps = 0
+    
+    while s > 0:
+        if s % 2 == 0:
+            s = s // 2
+            steps = steps + 1
+            continue 
+        
+        else:
+            s = s - 1
+            steps = steps + 1
+            continue
+        
+
+    return steps   
+
+print(num_steps(2))
