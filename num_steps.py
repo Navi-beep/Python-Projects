@@ -13,7 +13,7 @@ def even(e):
 
 print(even(2)) 
 
-#not working yet
+
 def num_steps(s):
     steps = 0
     
@@ -31,15 +31,15 @@ def num_steps(s):
 
     return steps   
 
-print(num_steps(2))
+print(num_steps(14))
 
 #just goofin and makin a list 
-def loop(nums):
-    b = []
-    for n in range(1, nums + 2):
-            m = n - 1
-            q = m ** 2
-            b.append(q)
-    return b 
+#def loop(nums):
+#    b = []
+ #   for n in range(1, nums + 2):
+#            m = n - 1
+#            q = m ** 2
+#            b.append(q)
+#    return b 
            
-print(loop(10))
+#print(loop(10))
