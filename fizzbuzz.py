@@ -16,3 +16,21 @@ def fizzbuzz():
         print(n)
 
 fizzbuzz()
+
+
+class Solution:
+    def fizzBuzz(self, n):
+        listy = []
+        for n in range(1,n+1):
+            if n % 3 == 0 and n % 5 == 0:
+                listy.append("FizzBuzz")
+            elif n % 3 == 0:
+                listy.append("Fizz")
+            
+            elif n % 5 == 0:
+                listy.append("Buzz")
+            
+            else:
+                listy.append(str(n)) 
+        
+        return listy
