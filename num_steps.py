@@ -32,3 +32,14 @@ def num_steps(s):
     return steps   
 
 print(num_steps(2))
+
+#just goofin and makin a list 
+def loop(nums):
+    b = []
+    for n in range(1, nums + 2):
+            m = n - 1
+            q = m ** 2
+            b.append(q)
+    return b 
+           
+print(loop(10))
