@@ -17,10 +17,10 @@ def pattern(N,S):
     else:
         return "$"
 def printPat(N):
-    st=""
+    cats=""
     for i in range(N, 0,-1):
-        st += pattern(N,i)
-    print(st)
+        cats += pattern(N,i)
+    print(cats)
 
     
     
