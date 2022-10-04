@@ -8,10 +8,25 @@
 
 #"GCAT"  =>  "GCAU"
 
+#Adenine pairs with Uracil
+#Cytosine pairs with Guanine
+
+
 def dna_to_rna(dna):
-    'G'=='G'
-    'C'=='C'
-    'A'=='A'
-    'T'=='U'
+    rna = ""
+
+    for letter in dna:
+        if letter == 'A':
+            rna += 'U'
+        elif letter == 'C':
+            rna += 'G'
+        elif letter == 'T':
+            rna += 'A'
+        else:
+            rna += 'C'
+        
+    return rna 
+
+
 
 print(dna_to_rna('GATAC'))
