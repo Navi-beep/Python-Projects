@@ -27,10 +27,10 @@ def larger_int(items):
     for i in items:
         e += str(i)
     b = int(e) + 1
-    c = str(b)
-    return list(c)
+    c = list(str(b))
+    return c 
 
-
+    
 
 print(larger_int([4,3,2,1]))
 print(larger_int([1,2,3]))
