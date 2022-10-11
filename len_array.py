@@ -7,6 +7,9 @@
 #Even though [1,3,5,7] is an increasing subarray, it is not continuous as elements 5 and 7 are separated by element
 #4.
 
+#The Sliding Window pattern is used to perform a required operation on a specific window size of a given array or linked list, such as finding the longest subarray containing all 1s. Sliding Windows start from the 1st element and keep shifting right by one element and adjust the length of the window according to the problem that you are solving. 
+
+
 def len_array(arr):
     first = 0
     final = 0
