@@ -27,6 +27,7 @@ print(long_pre(["flower","flow","flight"]))
 
 def longest_Prefix(b):
         
+        
         prefix = b[0]
         #print(prefix)
         
@@ -34,11 +35,12 @@ def longest_Prefix(b):
             #print(i)
             while not i.startswith(prefix):
                 prefix = prefix[:-1]
-                print()
+                print(prefix)
                 #print(prefix)
+                
         
         return prefix
 
-print(longest_Prefix(["flower","flow","flight"]))
+print(longest_Prefix(["catsapp","catscookie","catskibbles"]))
 
     
