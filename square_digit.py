@@ -12,4 +12,4 @@ def square_digit(num):
     return int(cats) 
 
 
-print(square_digit(44))
+print(square_digit(9119))
