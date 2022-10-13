@@ -1,5 +1,5 @@
 #Put in a character from Star Wars and get a quote! Have fun! 
-#doesnt work, why is it just printing the general kenobi?
+
 def star_wars():
 
     while True:
