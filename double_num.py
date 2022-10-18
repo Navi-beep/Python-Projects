@@ -16,3 +16,14 @@ def find_double(d):
 
 
 print(find_double([16,12,2,14,3]))
+
+
+def double(arr):
+    set_nums = set(arr) #O(n)
+    for n in arr: #0(n)
+        if n * 2 in set_nums: #O(1)
+            return True
+    return False 
+
+
+print(double([10,2,5,3]))
