@@ -20,6 +20,7 @@ print(find_double([16,12,2,14,3]))
 
 def double(arr):
     set_nums = set(arr) #O(n)
+    #creating set gets rid of duplicate numbers
     for n in arr: #0(n)
         if n * 2 in set_nums: #O(1)
             return True
