@@ -5,7 +5,7 @@
 #Input: [10,2,5,3]
 # output: true
 
-
+#this is gonna be at least O(n**2)
 def find_double(d):
     for n in d:
         for m in d:
