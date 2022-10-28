@@ -20,6 +20,6 @@ def countGoodSubstrings(s):
             #making the string into a set, removes the duplicates, so if there are 3 in a set, it means its unique as there are no duplicates within the set. 
             if len(set(s[i:i+3])) == 3:
                 counter += 1
-        return counter
+        return counter 
 
 print(countGoodSubstrings('xyzzaz'))
