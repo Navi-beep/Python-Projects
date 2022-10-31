@@ -11,7 +11,7 @@
 
 def spaced_int(string):
     thing = string.split()
-    return min(thing) + ' ' + max(thing)
+    return '"{}"'.format(min(thing) + ' ' + '{}'.format(max(thing)))
 
 
 
