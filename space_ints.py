@@ -17,3 +17,4 @@ def spaced_int(string):
 
 
 print(spaced_int("32 27 83 25 5 -5 0 32"))
+print(spaced_int("32 99 83 25 -15 -5 0 32"))
