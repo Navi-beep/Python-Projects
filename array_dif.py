@@ -5,13 +5,12 @@
 
 def array_dif(a,b):
     c = []
-    d = []
-    for i in a:
-        if i in b:
-            d.append(i)
-        else:
-            c.append(i)
-    return c
+    for n in a:
+        if n not in b:
+            c.append(n)
+
+    return c 
+            
 
 
 
