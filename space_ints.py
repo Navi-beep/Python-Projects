@@ -9,6 +9,8 @@
 #Input: "     82  1 0  -5 32  7  14  22   "
 #Output: "-5 82"
 
+#stuff
+
 def spaced_int(string):
     thing = string.split()
     return '"{}"'.format(min(thing) + ' ' + '{}'.format(max(thing)))
