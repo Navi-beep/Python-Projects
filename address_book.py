@@ -5,11 +5,11 @@ def add_info(name,address):
     all_deets = {}
     
     while True:
-        name = input('\nWhat is your name?:')   
+        name = input('\nWhat is their name?:')   
         if name == 'q':
             break
 
-        address = input('\nWhere do you live?')
+        address = input('\nWhere do they live?')
         if address == 'q':
             break
         
@@ -26,6 +26,6 @@ def add_info(name,address):
         
     for key,value in all_deets:
         #all_deets = add_info(name,address)
-            print(f"{name} lives at {address}")       
+            print(f"{key} lives at {value}")       
 
 add_info('name','address')
