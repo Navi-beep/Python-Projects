@@ -14,3 +14,11 @@ def smallest_int(n):
 print(smallest_int(5))
 
 
+
+def smal_int(q):
+    if q%2 != 0:
+        return q*2
+    return q 
+
+print(smal_int(5))
+    
