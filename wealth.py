@@ -23,11 +23,11 @@ def maximumWealth(accounts):
             #print (len(accounts))
             #print(sum(accounts[i]))
             ind_wealth = sum(accounts[i])
-            print(ind_wealth)
+            #print(ind_wealth)
             if ind_wealth > max_wealth:
                 max_wealth = ind_wealth
                 #print('cats')
-        return i, max_wealth, f'show me the money'
+        return max_wealth, 'show me the money'
 
 
 print(maximumWealth([[1,2,3],[4,7,10],[4,5,6],[7,4,8]]))
