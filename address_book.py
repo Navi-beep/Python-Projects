@@ -16,7 +16,6 @@ def add_info(name,address):
         quit = input('\nDo you want to enter more info?')
         if quit == 'no':
             
-        
             if name not in all_deets:
                 all_deets[name] = address
         
@@ -24,8 +23,7 @@ def add_info(name,address):
             continue
         print(all_deets)
         
-    for key,value in all_deets:
-        #all_deets = add_info(name,address)
-            print(f"{key} lives at {value}")       
+    #for key,value in all_deets:
+    #        print(f"{key} lives at {value}")       
 
 add_info('name','address')
