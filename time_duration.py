@@ -25,9 +25,11 @@ print(years)
 #return none, have to fix
 def stuff(seconds):
     seconds = time.time()
-    years = seconds/60/60/24/365.25
-    print(years)
-    print('cats')
+    minutes = seconds/60
+    hours = minutes/60
+    days = hours/24
+    years = days/365.25
+    return f"That time is: {years} years."
 
 print(stuff(600000))
 
