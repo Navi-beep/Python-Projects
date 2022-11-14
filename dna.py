@@ -29,4 +29,4 @@ def dna_to_rna(dna):
 
 
 
-print(dna_to_rna('GATAC'))
+print(dna_to_rna('GATTACA'))
