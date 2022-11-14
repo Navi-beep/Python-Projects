@@ -15,3 +15,20 @@ def duration(s):
     return f"That time is:{year} years, {days} days, {hours} hours, and {minutes} minutes, {seconds} seconds."
 
 print(duration(60000))
+
+import time 
+
+seconds = time.time()
+years = seconds/60/60/24/365.25
+print(years)
+
+#return none, have to fix
+def stuff(seconds):
+    seconds = time.time()
+    years = seconds/60/60/24/365.25
+    print(years)
+    print('cats')
+
+print(stuff(600000))
+
+
