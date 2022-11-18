@@ -8,7 +8,12 @@
 
 
 def descend(thing):
-    return type(thing)
+    thing_2 = list(str(thing))
+    x = sorted(thing_2, reverse=True)
+    return "".join(x)
+    
     
 
 print(descend(145494857))
+
+
