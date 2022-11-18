@@ -12,7 +12,7 @@ def descend(thing):
     x = sorted(thing_2, reverse=True)
     return "".join(x)
     
-    
+   
 
 print(descend(145494857))
 
