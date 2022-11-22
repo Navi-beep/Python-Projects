@@ -12,7 +12,7 @@ def solution(nums):
         if len(nums_2) == 0:
             return nums_2
         else:
-            nums_3 = nums_2.sort()
+            nums_3 = sorted(nums_2)
             return nums_3
         
 
