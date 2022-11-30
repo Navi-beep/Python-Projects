@@ -19,10 +19,11 @@
 def mostWords(sentences):
 
     most = 0
-    for w in sentences:
+    for i in range(len(sentences)):
+        sentences[i] = sentences[i].count(' ') + 1
         
-        most = max(most, w.count(' '))
-    return most + 1 
+        most = max(most, sentences[i])
+    return most
 
 
 
