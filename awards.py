@@ -23,6 +23,9 @@ def awards(score):
         elif s == 3:
             b.append('Bronze Medal')
 
+        elif s == 4:
+            b.append('Goldfish Crackers')
+
         else:
             b.append(s)
 
