@@ -11,3 +11,6 @@ def maximum(arr):
 arr = [100,-1111,3,45,6,7,5656]
 print(minimum(arr))
 print(maximum(arr))
+
+
+arr2 = [100,-1111,3,45,6,7,4545323]
