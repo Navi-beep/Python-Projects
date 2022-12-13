@@ -5,7 +5,7 @@
 #have to change to include spaces 
 
 def to_weird_case(words):
-    words2 = ''
+    words2 = ' '
     print(len(words))
     for i in range(len(words)):
         if i % 2 == 0:
@@ -13,6 +13,9 @@ def to_weird_case(words):
            words2 += b
         elif i % 2 != 0:
             words2 += words[i]
+
+        #elif words[i] == ' ':
+        #    words2 += ' '
      
     return words2 
 
