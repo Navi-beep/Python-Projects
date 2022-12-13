@@ -5,25 +5,46 @@
 #have to change to include spaces 
 
 def to_weird_case(words):
-    words2 = ' '
-    print(len(words))
+    words2 = ''
+    #print(len(words))
     for i in range(len(words)):
         if i % 2 == 0:
+            words2 += words[i].upper()
+             
+
+        elif i % 2 == 0 or words[i] == 0:
            b = words[i].upper()
            words2 += b
-        elif i % 2 != 0:
-            words2 += words[i]
-
-        #elif words[i] == ' ':
-        #    words2 += ' '
-     
-    return words2 
 
 
+        else:
+            words2 += words[i].lower()
+
+
+    return words2
+
+
+def second_weird_case(words):
+    counter = 0 
+    words3 = ''
     
+    for i in range(len(words)):
+        if words[i] == ' ':
+            counter -=1 
+            words3 += words[i]
+
+        elif counter % 2 == 0:
+            words3 += words[i].upper()
+
+        else:
+            words3 += words[i].lower()
+        
+        counter += 1
+
+    return words3
 
 
-
-print(to_weird_case('Weird string case'))
+print(second_weird_case('this is a test'))
+print(range(len('this is a test')))
 
 
