@@ -10,4 +10,4 @@ def jazz_potato(thang):
     return ' '.join(thang2)
 
 
-print(space_jam('i hate this fucking shit'))
+print(jazz_potato('i hate this fucking shit'))
