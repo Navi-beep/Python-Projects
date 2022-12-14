@@ -30,7 +30,7 @@ def second_weird_case(words):
     
     for i in range(len(words)):
         if words[i] == ' ':
-            counter -=1 
+            counter = -1 
             words3 += words[i]
 
         elif counter % 2 == 0:
@@ -45,6 +45,22 @@ def second_weird_case(words):
 
 
 print(second_weird_case('this is a test'))
-print(range(len('this is a test')))
+#print(range(len('this is a test')))
 
+
+def second_to_weird_case(words):
+    index = 0
+    new_string = ''
+    for word in words:
+        if word == ' ':
+            index = -1
+            new_string += word
+        elif index % 2 == 0:
+            new_string += word.upper()
+        else:
+            new_string += word.lower()
+        index += 1
+    return new_string
+
+print(second_to_weird_case('this is a test'))
 
