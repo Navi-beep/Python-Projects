@@ -6,7 +6,7 @@ movies = ['zoolander 2', 'harold and kumar go to white castle', 'inglorious bast
 def pick_one(movies):
     print('          ')
     print('Your movie choice for the evening is:        \n')
-    print(random.choice(movies))
+    print(random.choice(movies).title())
     print('          ')
     
 
