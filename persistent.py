@@ -7,4 +7,11 @@
 #4 --> 0 (because 4 is already a one-digit number)
 
 def persistence(n):
-    pass 
+    thing =[]
+    for num in str(n):
+        i = int(num) 
+        thing.append(i)
+    return thing 
+
+
+print(persistence(152))
