@@ -16,9 +16,11 @@ def explode(arr):
         if arr[i] in range(0,9):
             sum += arr[i]
             #new_arr.append(arr)
+            #if arr[i] not in range(0,9):
+                
     return new_arr 
     
-    
+
 
     
 
