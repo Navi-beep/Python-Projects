@@ -15,10 +15,9 @@ def explode(arr):
     for i in range(len(arr)):
         if arr[i] in range(0,9):
             sum += arr[i]
-        else:
-
-
-    return sum
+            #new_arr.append(arr)
+    return new_arr 
+    
     
 
     

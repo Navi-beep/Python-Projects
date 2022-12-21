@@ -2,8 +2,8 @@ def aphex_twin():
     fav_songs = []
 
     song_name = input(f"What's your favorite Aphex Twin song?: ")
+    
     res = input(f"{song_name} is a great song! Do you want me to add to your favorite songs list? Select 'y' or 'n' ")
-
 
     if res == 'y':
         print("Ok! I'll add it your favorite list")
