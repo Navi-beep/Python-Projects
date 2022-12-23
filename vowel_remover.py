@@ -8,7 +8,7 @@ def vowel_remove(thing):
     for t in thing:
         if t not in 'aeiou':
             cat.append(t)
-    return cat 
+    return ''.join(cat)
         
 
 
