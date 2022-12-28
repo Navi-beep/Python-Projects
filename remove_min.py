@@ -14,7 +14,8 @@
 
 
 def remove_smol(number):
-    return number 
+    numberoo = min(number)
+    return numberoo 
 
 
 print(remove_smol([1,2,3,4,5]))
