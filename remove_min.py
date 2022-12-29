@@ -14,10 +14,12 @@
 
 
 def remove_smol(number):
-    number.remove(min(number))
-    return number 
+    if len(number) > 0:
+        number.remove(min(number))
+        return number
+    else:
+        return number
 
 
 
-print(remove_smol([1,2,3,4,1,5]))
-
+print(remove_smol([1,2]))
