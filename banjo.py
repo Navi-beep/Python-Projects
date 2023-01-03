@@ -7,7 +7,7 @@
 #name + " does not play banjo"
 
 def deliverance(name):
-    for n in range(len(name)):
+    #for n in range(len(name)):
         if name[0].lower() == 'r':
             return name + ' ' + 'plays banjo'
         else:
@@ -19,4 +19,4 @@ def deliverance(name):
     
 
 
-print(deliverance('reanut'))
+print(deliverance('Reanut'))
