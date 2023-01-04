@@ -1,8 +1,8 @@
 #Given a string str, reverse it and omit all non-alphabetic characters.
 
 
-def reverse(string):
-    return string
+def reversed(string):
+    return string[::-1] 
 
 
-print(reverse('cats'))
+print(reversed('cat2s'))
