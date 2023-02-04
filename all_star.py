@@ -15,6 +15,7 @@ def str_count(strng, letter):
     Counter = 0 
     thing = []
     for word in strng:
+        print(word)
         thing.append(word)
         if word == letter:
             Counter += 1
@@ -23,4 +24,4 @@ def str_count(strng, letter):
         
     return Counter
 
-print(str_count('hello', 'o'))
+print(str_count('helloo', 'o'))

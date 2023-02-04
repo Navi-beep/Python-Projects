@@ -30,3 +30,15 @@ def add_length(str):
 
 print(add_length('cats, birds'))
 
+
+
+def thing(str_two):
+    str_three = str_two.split()
+    new_listy = []
+    for s in str_three:
+        new_listy.append(s)
+        new_listy.append(len(s))
+    return new_listy
+
+
+print(thing('cats, pigeons'))
