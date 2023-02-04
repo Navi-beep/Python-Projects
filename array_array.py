@@ -8,22 +8,23 @@
 
 #if (x) == ['a', 3] you should return [['a', 3], ['a', 3], ['a', 3]].
 
-
+#wtf does this even do? 
 def explode(arr):
     sum = 0
     new_arr = []
-    for i in range(len(arr)):
-        if arr[i] in range(0,9):
-            sum += arr[i]
+    for n in arr:
+        if n in range(0,9):
+            sum += n
+            new_arr.append(n) 
 
-            #new_arr.append(arr)
-            #if arr[i] not in range(0,9):
+        else:
+          sum == 1
                 
-    return new_arr 
+    return new_arr, sum   
     
 
 
-print(explode([2,3]))
+print(explode([5]))
 
 
 def calculate_score(x):
@@ -39,4 +40,4 @@ def calculate_score(x):
   return [x] * score
 
 
-print(calculate_score(['a',3]))
+print(calculate_score([5,3]))
