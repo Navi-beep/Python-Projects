@@ -14,4 +14,4 @@ def reverser(num):
     return rm 
 
 
-print(reverser(543))
+print(reverser(542))
